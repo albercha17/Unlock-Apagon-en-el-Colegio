@@ -3,26 +3,27 @@
     "titulo": "Carta P — Pasillo apagado",
     "tipo": "gris",
     "descripcion": [
-      "Aqui empieza la aventura",
-      "Se ve el pasillo del colegio a oscuras y a cris asustada.",
-      "Se puede coger la carta 2 que es la turoria y seguir"
-  ],
+      "Aquí empieza la aventura.",
+      "Se ve el pasillo del colegio a oscuras y a Cris asustada.",
+      "Se puede coger la carta 2, que es la tutoría, y seguir."
+    ],
     "pistas": [
-      "Coge la carta 2"]
+      "Coge la carta 2."
+    ]
   },
   "2": {
-    "titulo": "Carta 2 — Tutoria apagada",
+    "titulo": "Carta 2 — Tutoría apagada",
     "tipo": "verde",
     "descripcion": [
       "La carta es un juego de la app en el que se ve una imagen muy oscura.",
-      "En la imagen podemos ver una linterna. Al darle nos dira que cojamos la carta 5(la linterna).",
-      "Se actualizara la imagen y veremos la habitacion con más luz. Podremos ver en la pizarra un numero romano que luego usaremos.",
-      "Ademas, podremos tocar 2 objetos: una hoja encima de la mesa (carta 26) y un cubo azul (carta 8)."
-      ],
+      "En la imagen podemos ver una linterna. Al darle nos dirá que cojamos la carta 54 (la linterna).",
+      "Se actualizará la imagen y veremos la habitación con más luz. Podremos ver en la pizarra un número romano que luego usaremos.",
+      "Además, podremos tocar 2 objetos: una hoja encima de la mesa (carta 23) y un cubo azul (carta 88)."
+    ],
     "pistas": [
-      "Encuentra algo para ilumnar.",
-      "No ves algo interesante? Algo que destaque ademas de lo escrito en la pizarra o algo por el suelo...",
-      "Hay una hoja en la mesa. Hay un numero romano en la pizarra, apuntalo para más tarde. Ademas en el suelo se encuentra un cubo azul."
+      "Encuentra algo para iluminar.",
+      "¿No ves algo interesante? Algo que destaque además de lo escrito en la pizarra o algo por el suelo...",
+      "Hay una hoja en la mesa. Hay un número romano en la pizarra, apúntalo para más tarde. Además en el suelo se encuentra un cubo azul."
     ]
   },
   "54": {
@@ -30,10 +31,10 @@
     "tipo": "gris",
     "descripcion": [
       "Una linterna con la que en el resto del juego podremos ver las salas.",
-      "No hace nada en verdad, es solo para seguir la partida"
+      "No hace nada en verdad, es solo para seguir la partida."
     ],
     "pistas": [
-      "Ahora veras todo mejor."
+      "Ahora verás todo mejor."
     ]
   },
   "88": {
@@ -41,9 +42,9 @@
     "tipo": "gris",
     "descripcion": [
       "Es un cubo azul, como un juguete de un niño pequeño.",
-      "En la carta fisica hay una letra escrita con un boli de tinta invisible. Con un llavera que conseguiremos mas tarde ( Carta 40 ) podremos ver lo que hay escrito.",
-      "Esta pieza, junto al resto de piezas de niños serviran para el puzzle final. Con el llavero de luz morada veremos las letras y descifraremos el ultimo puzzle."
-     ],
+      "En la carta física hay una letra escrita con un bolígrafo de tinta invisible. Con un llavero que conseguiremos más tarde (carta 40) podremos ver lo que hay escrito.",
+      "Esta pieza, junto al resto de piezas de niños, servirá para el puzzle final. Con el llavero de luz morada veremos las letras y descifraremos el último puzzle."
+    ],
     "pistas": [
       "Lo usaremos para el juego final..."
     ]
@@ -52,11 +53,11 @@
     "titulo": "Carta 23 — Hoja en blanco",
     "tipo": "rojo",
     "descripcion": [
-      "Es una hoja en blanco. Esta se juntara con la carta 3, la cual es un carboncillo.",
-      "Al juntarlas, se vera lo que hay escrito en la hoja, es decir, la carta 26."
+      "Es una hoja en blanco. Esta se juntará con la carta 3, la cual es un carboncillo.",
+      "Al juntarlas, se verá lo que hay escrito en la hoja, es decir, la carta 26."
     ],
     "pistas": [
-      "Juntalo con un carboncillo y la magia ocurrira..."
+      "Júntalo con un carboncillo y la magia ocurrirá..."
     ]
   },
   "22": {
@@ -65,19 +66,18 @@
     "descripcion": [
       "Es el mismo pasillo de la carta P, pero ahora con luz y podemos ver las aulas.",
       "En ella podemos coger las cartas 48 y 71.",
-      "Se descarta la carta P"
+      "Se descarta la carta P."
     ],
     "pistas": [
       "Coge las cartas que te indica la carta."
     ]
   },
-  
   "71": {
-    "titulo": "Carta 71 — Clase literatura",
+    "titulo": "Carta 71 — Clase de literatura",
     "tipo": "gris",
     "descripcion": [
-      "Clase de literatura. En esta clase cogeremos diferentes objetos( cartas 3 y 6 ).",
-      "Ademas habra una libreria en la cual habra un acertijo, en el que usaremos lo que hay apuntado en la carta 26, y lo que havia en la pizzara en la carta 2."
+      "Clase de literatura. En esta clase cogeremos diferentes objetos (cartas 3 y 6).",
+      "Además habrá una librería en la cual habrá un acertijo, en el que usaremos lo que hay apuntado en la carta 26 y lo que había en la pizarra en la carta 2."
     ],
     "pistas": [
       "Coge las cartas que te indica la carta."
@@ -87,46 +87,46 @@
     "titulo": "Carta 3 — Carboncillo",
     "tipo": "azul",
     "descripcion": [
-      "Es un carboncillo negro. Si lo juntamos a la carta 23, obtendremos la carta 26, que es la hoja pintada."
+      "Es un carboncillo negro. Si lo juntamos con la carta 23, obtendremos la carta 26, que es la hoja pintada."
     ],
     "pistas": [
-      "Coge las cartas que te indica la carta."
+      "Cógela cuando te lo indique la carta."
     ]
   },
   "6": {
-    "titulo": "Carta 6 — Quimico corrosivo",
+    "titulo": "Carta 6 — Químico corrosivo",
     "tipo": "azul",
     "descripcion": [
-      "Es una probeta que nos encontramos. Mas tarde elaboraremos otra sustancia ( carta 1) que junto a esta, obtendremos un superacido ( carta 7)"
+      "Es una probeta que nos encontramos. Más tarde elaboraremos otra sustancia (carta 1) que, junto a esta, obtendremos un superácido (carta 7)."
     ],
     "pistas": [
-      "Juntala a otro fluido..."
+      "Júntala a otro fluido..."
     ]
   },
   "38": {
-    "titulo": "Carta 38 — Libreria",
+    "titulo": "Carta 38 — Librería",
     "tipo": "gris",
     "descripcion": [
-      "Es una libreria en la que se ven muchos 10 libros",
-      "Cada libro tiene un numero romano y un titulo con algunas palabras en mayusculas",
-      "Este acertijo se basa en coger los numeros romanos de la carta 26 y los de la pizzara de la 2, y obtendremos 4 numeros",
-      "Escogeremos los 4 libros que corresponden a dichos numeros, los ordenaremos y evremos que en mayuscula nos dira: COGE LA CARTA TREINTA.",
-      "Cogeremos la carta 30"
+      "Es una librería en la que se ven muchos libros.",
+      "Cada libro tiene un número romano y un título con algunas palabras en mayúsculas.",
+      "Este acertijo se basa en coger los números romanos de la carta 26 y los de la pizarra de la 2, y obtendremos 4 números.",
+      "Escogeremos los 4 libros que correspondan a dichos números, los ordenaremos y veremos que en mayúsculas nos dirá: COGE LA CARTA TREINTA.",
+      "Cogeremos la carta 30."
     ],
     "pistas": [
-      "Mira los numeros de los libros... ¿No he visto antes numeros romanos?",
-      "Coge los libros que corresponen a los numeros romanos de la pizzara y la hoja",
-      "Si ordenas las palabras diran: COGE LA CARTA TREINTA"
+      "Mira los números de los libros... ¿No he visto antes números romanos?",
+      "Coge los libros que corresponden a los números romanos de la pizarra y la hoja.",
+      "Si ordenas las palabras dirán: COGE LA CARTA TREINTA."
     ]
   },
   "30": {
-    "titulo": "Carta 30 — Triangulo morado",
+    "titulo": "Carta 30 — Triángulo morado",
     "tipo": "gris",
     "descripcion": [
-      "Es un triangulo morado. Se usara junto al cubo azul en el jeugo final",
-      "En la carta fisica hay una letra escrita con un boli de tinta invisible. Con un llavera que conseguiremos mas tarde ( Carta 40 ) podremos ver lo que hay escrito.",
-      "Esta pieza, junto al resto de piezas de niños serviran para el puzzle final. Con el llavero de luz morada veremos las letras y descifraremos el ultimo puzzle.",
-      "Quitas la carta 26 y 38"
+      "Es un triángulo morado. Se usará junto al cubo azul en el juego final.",
+      "En la carta física hay una letra escrita con un bolígrafo de tinta invisible. Con un llavero que conseguiremos más tarde (carta 40) podremos ver lo que hay escrito.",
+      "Esta pieza, junto al resto de piezas de niños, servirá para el puzzle final. Con el llavero de luz morada veremos las letras y descifraremos el último puzzle.",
+      "Quita la carta 26 y la carta 38."
     ],
     "pistas": [
       "Lo usaremos para el juego final..."
@@ -136,12 +136,12 @@
     "titulo": "Carta 26 — Papel pintado",
     "tipo": "gris",
     "descripcion": [
-      "Es un papel pintado con carboncillo en el que se ve un numero romano",
-      "Este numero se usara en la carta 38",
-      "Quita la carta 23 y 3"
+      "Es un papel pintado con carboncillo en el que se ve un número romano.",
+      "Este número se usará en la carta 38.",
+      "Quita la carta 23 y la carta 3."
     ],
     "pistas": [
-      "Lo usaremos en la libreria"
+      "Lo usaremos en la librería."
     ]
   },
   "33": {
