@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Unlock CA - Apagón en el Colegio</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
   <style>
-    :root{
+    :root {
       --btn-w: 200px;
       --btn-h: 64px;
       --btn-radius: 14px;
@@ -26,14 +26,15 @@
       -moz-osx-font-smoothing: grayscale;
     }
 
-    html, body {
+    html,
+    body {
       height: auto !important;
       width: 100% !important;
       overflow: auto !important;
-      margin:0;
+      margin: 0;
       background: radial-gradient(circle at center, #0a0f24 0%, #050810 100%);
-      color:#fff;
-      font-family:var(--font);
+      color: #fff;
+      font-family: var(--font);
       /* Evitar zoom en iOS */
       touch-action: manipulation;
       -ms-touch-action: manipulation;
@@ -45,18 +46,18 @@
       -webkit-tap-highlight-color: transparent;
     }
 
-    .container{
-      max-width:1100px;
-      margin:28px auto;
-      padding:18px;
+    .container {
+      max-width: 1100px;
+      margin: 28px auto;
+      padding: 18px;
     }
 
-    .panel-card{
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.08);
+    .panel-card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
       border-radius: 16px;
-      padding:18px;
-      box-shadow: 0 10px 36px rgba(0,0,0,0.5);
+      padding: 18px;
+      box-shadow: 0 10px 36px rgba(0, 0, 0, 0.5);
     }
 
     /* ===== botones acción/pista (normalizados) ===== */
@@ -123,6 +124,7 @@
         height: 56px !important;
         font-size: 14px !important;
       }
+
       .action-row .control-btn .icon {
         width: 26px !important;
         height: 26px !important;
@@ -131,50 +133,64 @@
 
     /* ===== CABECERA DEL PANEL DE JUEGO ===== */
     .game-panel-header {
-      display:flex;
-      align-items:center;
-      justify-content:flex-start;
-      gap:12px;
-      width:100%;
-      margin-bottom:8px;
-    }
-    .game-logo-circle {
-      width:64px;
-      height:64px;
-      border-radius:50%;
-      overflow:hidden;
-      flex:0 0 64px;
-      display:inline-flex;
-      align-items:center;
-      justify-content:center;
-      border:2px solid rgba(255,255,255,0.08);
-      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-      box-shadow: 0 8px 28px rgba(0,0,0,0.45);
-    }
-    .game-logo-circle img{
-      width:100%;
-      height:100%;
-      object-fit:cover;
-      display:block;
-    }
-    .game-title-left h2 {
-      margin:0;
-      font-size:1.25rem;
-      font-weight:800;
-      letter-spacing:0.6px;
-      color:#fff;
-    }
-    .game-title-left .game-sub {
-      margin-top:4px;
-      font-size:0.92rem;
-      color: rgba(255,255,255,0.75);
-      font-weight:600;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      width: 100%;
+      margin-bottom: 8px;
     }
 
-    @media(max-width:560px){
-      .game-logo-circle { width:48px; height:48px; flex:0 0 48px; }
-      .game-title-left h2 { font-size:1.05rem; }
-      .game-title-left .game-sub { font-size:0.85rem; }
+    .game-logo-circle {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      overflow: hidden;
+      flex: 0 0 64px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid rgba(255, 255, 255, 0.08);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+    }
+
+    .game-logo-circle img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .game-title-left h2 {
+      margin: 0;
+      font-size: 1.25rem;
+      font-weight: 800;
+      letter-spacing: 0.6px;
+      color: #fff;
+    }
+
+    .game-title-left .game-sub {
+      margin-top: 4px;
+      font-size: 0.92rem;
+      color: rgba(255, 255, 255, 0.75);
+      font-weight: 600;
+    }
+
+    @media(max-width:560px) {
+      .game-logo-circle {
+        width: 48px;
+        height: 48px;
+        flex: 0 0 48px;
+      }
+
+      .game-title-left h2 {
+        font-size: 1.05rem;
+      }
+
+      .game-title-left .game-sub {
+        font-size: 0.85rem;
+      }
     }
 
     /* ===== Modal numérico (mejorado + fade) ===== */
@@ -184,15 +200,19 @@
       display: none;
       align-items: center;
       justify-content: center;
-      background: rgba(0,0,0,0.6);
+      background: rgba(0, 0, 0, 0.6);
       z-index: 9998;
       opacity: 1;
       transition: opacity var(--fade-ms) ease;
     }
-    .num-modal.closing { opacity: 0; }
+
+    .num-modal.closing {
+      opacity: 0;
+    }
+
     .num-modal-box {
       background: linear-gradient(180deg, #0f1724, #0b1220);
-      border: 1px solid rgba(255,255,255,0.04);
+      border: 1px solid rgba(255, 255, 255, 0.04);
       padding: 18px;
       border-radius: 12px;
       width: 360px;
@@ -201,45 +221,56 @@
       transform: translateY(0);
       transition: transform var(--fade-ms) ease;
     }
-    .num-modal.closing .num-modal-box { transform: translateY(8px); }
+
+    .num-modal.closing .num-modal-box {
+      transform: translateY(8px);
+    }
+
     .num-display {
       font-size: 28px;
       text-align: center;
       padding: 8px 0;
-      background: rgba(255,255,255,0.02);
+      background: rgba(255, 255, 255, 0.02);
       border-radius: 8px;
       margin-bottom: 8px;
     }
+
     .num-keypad {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 8px;
     }
+
     .num-key {
       background: linear-gradient(180deg, #162030, #0e1622);
       color: #fff;
       padding: 12px 0;
       border-radius: 8px;
-      border: 1px solid rgba(255,255,255,0.03);
+      border: 1px solid rgba(255, 255, 255, 0.03);
       cursor: pointer;
       font-size: 18px;
       font-weight: 700;
       user-select: none;
     }
-    .num-key.action { background: linear-gradient(180deg,#2c2c2c,#111); }
+
+    .num-key.action {
+      background: linear-gradient(180deg, #2c2c2c, #111);
+    }
+
     .num-message {
       color: #ffb3b3;
       min-height: 1.2em;
       margin-top: 8px;
     }
+
     .btn-open-anyway {
       background: #ffb86b;
       border: none;
       padding: 8px 12px;
       border-radius: 8px;
       cursor: pointer;
-      color:#111;
-      font-weight:700;
+      color: #111;
+      font-weight: 700;
     }
 
     /* ===== Sistema de diálogos (alert/confirm custom) ===== */
@@ -249,60 +280,67 @@
       display: none;
       align-items: center;
       justify-content: center;
-      background: rgba(0,0,0,0.5);
+      background: rgba(0, 0, 0, 0.5);
       z-index: 10000;
     }
+
     .sys-dialog .box {
       width: 480px;
       max-width: calc(100% - 32px);
-      background: linear-gradient(180deg,#0b1220,#081018);
-      border: 1px solid rgba(255,255,255,0.04);
+      background: linear-gradient(180deg, #0b1220, #081018);
+      border: 1px solid rgba(255, 255, 255, 0.04);
       padding: 18px;
       border-radius: 10px;
       color: #f1f5f9;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
       text-align: left;
     }
+
     .sys-dialog .box .msg {
       margin-bottom: 12px;
-      line-height:1.4;
+      line-height: 1.4;
     }
+
     .sys-dialog .box .controls {
-      display:flex;
-      gap:10px;
-      justify-content:flex-end;
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
     }
+
     .sys-dialog .btn {
       padding: 8px 14px;
-      border-radius:8px;
-      cursor:pointer;
+      border-radius: 8px;
+      cursor: pointer;
       border: none;
-      font-weight:700;
+      font-weight: 700;
     }
+
     .sys-dialog .btn.ok {
-      background: linear-gradient(180deg,#2fd09f,#0db07e);
-      color:#042617;
+      background: linear-gradient(180deg, #2fd09f, #0db07e);
+      color: #042617;
     }
+
     .sys-dialog .btn.cancel {
       background: #2d2f33;
       color: #fff;
-      border: 1px solid rgba(255,255,255,0.04);
+      border: 1px solid rgba(255, 255, 255, 0.04);
     }
 
     /* pequeño ajuste responsive */
-    @media (max-width:520px){
-      .sys-dialog .box{
+    @media (max-width:520px) {
+      .sys-dialog .box {
         width: 92%;
       }
     }
   </style>
 </head>
+
 <body>
   <div class="container layout" id="mainContainer">
     <div class="panel-card" id="introPanel">
       <header style="display:flex;align-items:center;gap:14px;margin-bottom:8px">
         <img src="./images/AEEC.png" alt="Imagen del escenario"
-             style="width:120px;height:120px;border-radius:12px;object-fit:cover;border:2px solid rgba(255,255,255,0.06)">
+          style="width:120px;height:120px;border-radius:12px;object-fit:cover;border:2px solid rgba(255,255,255,0.06)">
         <div>
           <h1 style="margin:0;font-size:20px">Apagón en el Colegio</h1>
           <p style="margin:6px 0 0 0;color:#cfcfd3">
@@ -340,9 +378,8 @@
       <div class="action-row" role="group" aria-label="Controles de acción">
         <button id="actionBtn" class="control-btn action-btn" aria-label="Acción importante" title="Acción">
           <span class="icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                 aria-hidden="true" focusable="false">
-              <path d="M13 2L3 14h7l-1 8L21 10h-7l-1-8z" fill="currentColor"/>
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <path d="M13 2L3 14h7l-1 8L21 10h-7l-1-8z" fill="currentColor" />
             </svg>
           </span>
           <span class="label">Acción</span>
@@ -350,10 +387,9 @@
 
         <button id="hintBtn" class="control-btn hint-btn" aria-label="Pedir pista" title="Pedir pista">
           <span class="icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                 aria-hidden="true" focusable="false">
-              <path d="M9 18h6v1a1 1 0 0 1-1 1H10a1 1 0 0 1-1-1v-1z" fill="currentColor"/>
-              <path d="M12 3a5 5 0 0 0-3 9v2h6v-2a5 5 0 0 0-3-9z" fill="currentColor"/>
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <path d="M9 18h6v1a1 1 0 0 1-1 1H10a1 1 0 0 1-1-1v-1z" fill="currentColor" />
+              <path d="M12 3a5 5 0 0 0-3 9v2h6v-2a5 5 0 0 0-3-9z" fill="currentColor" />
             </svg>
           </span>
           <span class="label">Pista</span>
@@ -369,20 +405,14 @@
   </div>
 
   <!-- Overlay de vídeo de introducción -->
-  <div id="videoOverlay"
-       style="position:fixed; inset:0; z-index:3000; display:none;
+  <div id="videoOverlay" style="position:fixed; inset:0; z-index:3000; display:none;
               background:rgba(0,0,0,0.95); align-items:center; justify-content:center;
               flex-direction:column;">
-    <video id="introVideo"
-           src="./images/videoInicial.mp4"
-           style="max-width:100%; max-height:80vh; border-radius:12px;
-                  box-shadow:0 18px 40px rgba(0,0,0,0.8); background:#000;"
-           playsinline
-           webkit-playsinline>
+    <video id="introVideo" src="./images/videoInicial.mp4" style="max-width:100%; max-height:80vh; border-radius:12px;
+                  box-shadow:0 18px 40px rgba(0,0,0,0.8); background:#000;" playsinline webkit-playsinline>
     </video>
 
-    <button id="skipVideoBtn"
-            style="margin-top:16px; padding:10px 18px;
+    <button id="skipVideoBtn" style="margin-top:16px; padding:10px 18px;
                    font-family:'Poppins', system-ui, -apple-system;
                    font-size:0.95rem; font-weight:700;
                    border:none; border-radius:999px;
@@ -451,8 +481,9 @@
             e.preventDefault();
           }
           lastTouchEnd = now;
-        },
-        { passive: false }
+        }, {
+          passive: false
+        }
       );
 
       // Evita pinch-zoom (dos dedos)
@@ -462,8 +493,9 @@
           if (e.touches && e.touches.length > 1) {
             e.preventDefault();
           }
-        },
-        { passive: false }
+        }, {
+          passive: false
+        }
       );
     })();
   </script>
@@ -1039,13 +1071,14 @@
     });
 
     // 'Salir' ahora usa el diálogo estilizado
-    stopBtn.addEventListener('click', async ()=>{
-      const ok = await showConfirm("¿Seguro que quieres salir? Perderás el progreso actual.");
-      if(ok){
-        if(intervalId) clearInterval(intervalId);
-        window.location.href = '../index.html';
-      }
-    });
+stopBtn.addEventListener('click', async ()=>{
+  const ok = await showConfirm("¿Seguro que quieres salir? Perderás el progreso actual.");
+  if(ok){
+    if(intervalId) clearInterval(intervalId);
+    window.location.href = 'https://github.com/albercha17/Unlock-CA';
+  }
+});
+
 
     function volver(){
       window.location.href = '../index.html';
@@ -1063,4 +1096,5 @@
     });
   </script>
 </body>
+
 </html>
