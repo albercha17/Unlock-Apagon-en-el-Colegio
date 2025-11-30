@@ -871,14 +871,13 @@
         }
         return;
       }
-
-      // MINIJUEGO 65 (países)
-      if(c === '65'){
-        const modulePath = './juegos/65-paises.js';
+      // MINIJUEGO 61 (cerrojo)
+      if(c === '61'){
+        const modulePath = './juegos/61-cerrojo.js';
         const res = await tryImportModule(modulePath);
         if(!res.ok){
-          console.error("Error cargando minijuego 65:", res.err);
-          numMessage.textContent = "No se pudo cargar el minijuego (65). Comprueba que ./juegos/65-paises.js exista y uses Live Server.";
+          console.error("Error cargando minijuego 61:", res.err);
+          numMessage.textContent = "No se pudo cargar el minijuego (61). Comprueba que ./juegos/61-cerrojo.js exista y uses Live Server.";
           numModal.style.display = 'flex';
           numModal.setAttribute('aria-hidden','false');
           return;
@@ -892,7 +891,60 @@
             resumeGameTimer: ()=> { isPaused = false; }
           });
         } else {
-          numMessage.textContent = "Módulo 65 cargado, pero no exporta startMinigame.";
+          numMessage.textContent = "Módulo 61 cargado, pero no exporta startMinigame.";
+          numModal.style.display = 'flex';
+          numModal.setAttribute('aria-hidden','false');
+        }
+        return;
+      }
+
+      // MINIJUEGO 89 (robot)
+      if(c === '89'){
+        const modulePath = './juegos/89-robotPreguntas.js';
+        const res = await tryImportModule(modulePath);
+        if(!res.ok){
+          console.error("Error cargando minijuego 89:", res.err);
+          numMessage.textContent = "No se pudo cargar el minijuego (89). Comprueba que ./juegos/89-robotPreguntas.js exista y uses Live Server.";
+          numModal.style.display = 'flex';
+          numModal.setAttribute('aria-hidden','false');
+          return;
+        }
+        const module = res.module;
+        if(typeof module.startMinigame === 'function'){
+          closeNumModal();
+          module.startMinigame({
+            onClose: ()=> actionBtn.focus(),
+            pauseGameTimer: ()=> { isPaused = true; },
+            resumeGameTimer: ()=> { isPaused = false; }
+          });
+        } else {
+          numMessage.textContent = "Módulo 89 cargado, pero no exporta startMinigame.";
+          numModal.style.display = 'flex';
+          numModal.setAttribute('aria-hidden','false');
+        }
+        return;
+      }
+      // MINIJUEGO 64 (juego final)
+      if(c === '64'){
+        const modulePath = './juegos/64-final.js';
+        const res = await tryImportModule(modulePath);
+        if(!res.ok){
+          console.error("Error cargando minijuego 64:", res.err);
+          numMessage.textContent = "No se pudo cargar el minijuego (64). Comprueba que ./juegos/64-final.js exista y uses Live Server.";
+          numModal.style.display = 'flex';
+          numModal.setAttribute('aria-hidden','false');
+          return;
+        }
+        const module = res.module;
+        if(typeof module.startMinigame === 'function'){
+          closeNumModal();
+          module.startMinigame({
+            onClose: ()=> actionBtn.focus(),
+            pauseGameTimer: ()=> { isPaused = true; },
+            resumeGameTimer: ()=> { isPaused = false; }
+          });
+        } else {
+          numMessage.textContent = "Módulo 64 cargado, pero no exporta startMinigame.";
           numModal.style.display = 'flex';
           numModal.setAttribute('aria-hidden','false');
         }

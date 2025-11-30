@@ -51,7 +51,7 @@
   },
   "23": {
     "titulo": "Carta 23 — Hoja en blanco",
-    "tipo": "rojo",
+    "tipo": "roja",
     "descripcion": [
       "Es una hoja en blanco. Esta se juntará con la carta 3, la cual es un carboncillo.",
       "Al juntarlas, se verá lo que hay escrito en la hoja, es decir, la carta 26."
@@ -65,15 +65,15 @@
     "tipo": "gris",
     "descripcion": [
       "Es el mismo pasillo de la carta P, pero ahora con luz y podemos ver las aulas.",
-      "En ella podemos coger las cartas 48 y 71.",
+      "En ella podemos coger las cartas 48 y 74.",
       "Se descarta la carta P."
     ],
     "pistas": [
       "Coge las cartas que te indica la carta."
     ]
   },
-  "71": {
-    "titulo": "Carta 71 — Clase de literatura",
+  "74": {
+    "titulo": "Carta 74 — Clase de literatura",
     "tipo": "gris",
     "descripcion": [
       "Clase de literatura. En esta clase cogeremos diferentes objetos (cartas 3 y 6).",
@@ -144,12 +144,369 @@
       "Lo usaremos en la librería."
     ]
   },
+  "48": {
+    "titulo": "Carta 48 — Clase tecnologia ",
+    "tipo": "",
+    "descripcion": [
+      "Es una clase de tecnologia. En ella se ve la cabeza de un robot sin curpo encima de una mesa, una puerta cerrada, una bateria electrica en el suelo y una caja con cables.",
+      "Coges la carta 60, 10, 18 y 42",
+      "Descrtas la 22"
+    ],
+    "pistas": [
+      "Coge las cartas que te dice esta carta."
+    ]
+  },
+  "80": {
+    "titulo": "Carta 80 — Cabeza del robot ",
+    "tipo": "roja",
+    "descripcion": [
+      "Es la cabeza de un robot sin cuerpo.",
+      "Luego se usara para combinarla con la carta 9 y formar la carta 89"
+    ],
+    "pistas": [
+      "Combinala con su cuerpo.",
+      "Combianala con la carta 9"
+    ]
+  },
+  "10": {
+    "titulo": "Carta 10 — Puerta cerrada tecnologia",
+    "tipo": "verde",
+    "descripcion": [
+      "Es una puerta cerrada en la que se ve la puerta, para poner un codigo con teclas y un circulo verde arriba",
+      "Esta carta es un juego en la que se debera poner una combinacion de numeros en un tiempo limite. Al ponerlo bien nos dara la siguiente carta, la 41",
+      "Coges la carta 53."
+    ],
+    "pistas": [
+      "Ordena las piezas para abrir la puerta",
+      "La contraseña es: 18 34 66 35 78 81 53."
+    ]
+  },
+  "18": {
+    "titulo": "Carta 18  — Bateria de los cables",
+    "tipo": "gris",
+    "descripcion": [
+      "Es una bateria electrica.",
+      "Se usara para el juego de la carta 10"
+    ],
+    "pistas": [
+      "Combinala en el juego 10"
+    ]
+  },
+  "42": {
+    "titulo": "Carta 42 — Caja con cables",
+    "tipo": "gris",
+    "descripcion": [
+      "Es una caja llena de cables. En el podremos coger las cartas de cables 34 66 35 78 y 81. Ademas podremos coger la carta 19, una pila pequeña."
+    ],
+    "pistas": [
+      "Coge todas las cartas que te dice la carta"
+    ]
+  },
+  "53": {
+    "titulo": "Carta 53 — Marcador de electricidad",
+    "tipo": "gris",
+    "descripcion": [
+      "Es un marcador para poner una contraseña",
+      "Se usara para el juego de la carta 10"
+    ],
+    "pistas": [
+      "Combinala en el juego 10"
+    ]
+  },
+  "81": {
+    "titulo": "Carta  81 — Cables",
+    "tipo": "gris",
+    "descripcion": [
+      "Son un monton de cables",
+      "Se usara para el juego de la carta 10"
+    ],
+    "pistas": [
+      "Combinala en el juego 10"
+    ]
+  },
+  "34": {
+    "titulo": "Carta 34 — Cables",
+    "tipo": "gris",
+    "descripcion": [
+      "Son un monton de cables",
+      "Se usara para el juego de la carta 10"
+    ],
+    "pistas": [
+      "Combinala en el juego 10"
+    ]
+  },
+  "35": {
+    "titulo": "Carta 35 — Cables",
+    "tipo": "gris",
+    "descripcion": [
+      "Son un monton de cables",
+      "Se usara para el juego de la carta 10"
+    ],
+    "pistas": [
+      "Combinala en el juego 10"
+    ]
+  },
+  "66": {
+    "titulo": "Carta 66 — Cables",
+    "tipo": "gris",
+    "descripcion": [
+      "Son un monton de cables",
+      "Se usara para el juego de la carta 10"
+    ],
+    "pistas": [
+      "Combinala en el juego 10"
+    ]
+  },
+  "78": {
+    "titulo": "Carta 78 — Cables",
+    "tipo": "gris",
+    "descripcion": [
+      "Son un monton de cables",
+      "Se usara para el juego de la carta 10"
+    ],
+    "pistas": [
+      "Combinala en el juego 10"
+    ]
+  },
+  "19": {
+    "titulo": "Carta 19 — Pila pequeña",
+    "tipo": "azul",
+    "descripcion": [
+      "Es una pila de boton pequeña.",
+      "Se usa para combinarla con la carta 21 y obtener la carta 40"
+    ],
+    "pistas": [
+      "Combinala con algo que necesite pilas...",
+      "Combinala con la carta 21",
+      "Descartas la 42"
+    ]
+  },
+  "41": {
+    "titulo": "Carta 41 — Puerta tecnologia abierta",
+    "tipo": "gris",
+    "descripcion": [
+      "Es la puerta de la sala de tecnologia abierta. En ella se ve tambien um circulo verde encima",
+      "Coges la carta 72 y 99",
+      "Descartas las cartas 18, 81, 34, 35,66, 78, 53, 10"
+    ],
+    "pistas": [
+      "Coge todas las cartas que te dice la carta"
+    ]
+  },
+  "72": {
+    "titulo": "Carta 72 — Pieza verde",
+    "tipo": "gris",
+    "descripcion": [
+      "Es un circulo verde. Se usará junto al cubo azul y el resto de piezas en el juego final.",
+      "En la carta física hay una letra escrita con un bolígrafo de tinta invisible. Con un llavero que conseguiremos más tarde (carta 40) podremos ver lo que hay escrito.",
+      "Esta pieza, junto al resto de piezas de niños, servirá para el puzzle final. Con el llavero de luz morada veremos las letras y descifraremos el último puzzle.",
+      "Quita la carta 41."
+    ],
+    "pistas": [
+      "Lo usaremos para el juego final..."
+    ]
+  },
+  "99": {
+    "titulo": "Carta 99 — Pasillo director",
+    "tipo": "gris",
+    "descripcion": [
+      "Es otro pasillo del colegio en la que se ven 3 puertas. La del laboratorio abierta y las del director y conserje cerradas.",
+      "Coge las cartas 13, 50 y 49"
+    ],
+    "pistas": [
+      "Coge todas las cartas que te dice la carta"
+    ]
+  },
+  "13": {
+    "titulo": "Carta 13 — Puerta del director cerrada ",
+    "tipo": "azul",
+    "descripcion": ["Es la puerta del director cerrada.","Se tendra que juntar con la carta 7 para abrirla."],
+    "pistas": ["Jamas encontrare la llave. Tendre que usar otros elementos par abrirla...","Combinala con la carta 7"]
+  },
+  "50": {
+    "titulo": "Carta 50 — Habitacion del conserje",
+    "tipo": "roja",
+    "descripcion": ["Es la puerta del conserje cerrada","Combinala con la carta 14 para abrir la puerta","Descarta la carta 99"],
+    "pistas": []
+  },
+  "49": {
+    "titulo": "Carta 49 — Laboratorio",
+    "tipo": "gris",
+    "descripcion": [
+      "Es el laboratorio por dentro. En el se ve una pared con pegatinas de planetas, unos microoscopios y un mueble con probetas cerrado por un candado",
+      "Coge las cartas 71, 15 y 61"
+    ],
+    "pistas": ["Coge todas las cartas que te dice la carta"]
+  },
+  "71": {
+    "titulo": "Carta 71 — Pared con planetas",
+    "tipo": "gris",
+    "descripcion": [
+      "Es una pared donde se ven planetas", "Coges las cartas 93, 36, 44, 63 y 60"
+    ],
+    "pistas": ["Coge todas las cartas que te dice la carta"]
+  },
+  "93": {
+    "titulo": "Carta 93 — Urano y Neptuno",
+    "tipo": "gris",
+    "descripcion": ["Son los planetas Urano y Neptuno. Cada planeta tiene un numero que se usara para el juego 60"],
+    "pistas": ["Son los 4º"]
+  },
+  "36": {
+    "titulo": "Carta 36 — Mercurio y Venus",
+    "tipo": "gris",
+    "descripcion": ["Son los planetas Mercurio y Venus. Cada planeta tiene un numero que se usara para el juego 60"],
+    "pistas": ["Son los 4º"]
+  },
+  "44": {
+    "titulo": "Carta 44 — Tierra y Marte",
+    "tipo": "gris",
+    "descripcion": ["Son los planetas Tierra y Marte. Cada planeta tiene un numero que se usara para el juego 60"],
+    "pistas": ["Son los 4º"]
+  },
+  "63": {
+    "titulo": "Carta 63 — Jupiter y Saturno",
+    "tipo": "gris",
+    "descripcion": ["Son los planetas Jupiter y Saturno. Cada planeta tiene un numero que se usara para el juego 60"],
+    "pistas": ["Son los 4º"]
+  },
+  "60": {
+    "titulo": "Carta 60 — Juego de los planetas",
+    "tipo": "gris",
+    "descripcion": ["En ella se ven los huecos de los planetas y una operacion",
+     "El juego consiste primero en ordenar bien los planetas y luego hacer la operacion. El resultado es la carta que hay que coger, la 90"],
+    "pistas": ["Parece una operacion...","Ordena los planetas y opera", "El resultado es 90"]
+  },
+  "90": {
+    "titulo": "Carta 90 — Pieza en forma de estrella",
+    "tipo": "gris",
+    "descripcion": [
+      "Es un estrella amarilla. Se usará junto al cubo azul y el resto de piezas en el juego final.",
+      "En la carta física hay una letra escrita con un bolígrafo de tinta invisible. Con un llavero que conseguiremos más tarde (carta 40) podremos ver lo que hay escrito.",
+      "Esta pieza, junto al resto de piezas de niños, servirá para el puzzle final. Con el llavero de luz morada veremos las letras y descifraremos el último puzzle.",
+      "Descarta las cartas 93, 44, 63, 60, 71 y 36"],
+    "pistas": ["Lo usaremos para el juego final..."]
+  },
+  "15": {
+    "titulo": "Carta 15 — Juego del microscopio",
+    "tipo": "verde",
+    "descripcion": ["Es un microscopio", "Es un juego de la app en el que deberemos ajustar el microscopio hasta ver 4 numeros que usaremos para el juego 61"],
+    "pistas": ["Ajusta bien los microscopios"]
+  },
+  "61": {
+    "titulo": "Carta 61 — Juego cerrojos",
+    "tipo": "verde",
+    "descripcion": ["Es un armario con un cerrojo","La combinacion me la dice la carta 15"],
+    "pistas": ["Mira los microscopios..."]
+  },
   "33": {
     "titulo": "Carta 33 — Ordenar probetas",
+    "tipo": "verde",
+    "descripcion": ["Es el armario abierto de las probetas","Es un juego de la app en la que debemos ordenar unas probetas segun un orden en la tabla periodica",
+    "Al hacerlo bien nos dara la carta 1, un fluido nuevo","Descarta las cartas 61 y 15"],
     "pistas": [
       "Las letras O, N, S y C no están ahí por azar.",
       "Piensa en la tabla periódica: ordena por número atómico de los elementos que empiezan por esas letras (Oxygen, Nitrogen, Sulfur, Carbon).",
       "El orden correcto es C (6), N (7), O (8), S (16). Usa ese orden para resolver el minijuego."
     ]
+  },
+  "1": {
+    "titulo": "Carta 1 — Resultado de las probetas ",
+    "tipo": "roja",
+    "descripcion": [
+      "Es un fluido en una probeta. Se juntara con el fluido de la carta 6 y dara como resultado la carta 7","Decarta la 33"],
+    "pistas": ["Juntala con otro liquido...", "Juntala con la carta 6"]
+  },
+  "7": {
+    "titulo": "Carta 7 — Superacido corrosivo ",
+    "tipo": "roja",
+    "descripcion": [
+      "Es un acido supercorrosivo en una probeta", "Se junta con la carta 13 y da como resultado la 20",
+      "Decarta la carta 6 y 1"
+    ],
+    "pistas": ["Combinala con la carta 13"]
+  },
+  "20": {
+    "titulo": "Carta 20 — Habitacion del director abierta",
+    "tipo": "gris",
+    "descripcion": ["Es la puerta del director abierta","Coge la carta 57","Descarta la carta 13 y 7"],
+    "pistas": ["Coge las cartas que te dice esta carta."]
+  },
+  "57": {
+    "titulo": "Carta 57 — Despacho del director",
+    "tipo": "gris",
+    "descripcion": ["Descarta la carta 57"],
+    "pistas": ["Coge las cartas que te dice esta carta."]
+  },
+  "65": {
+    "titulo": "Carta 65 — Bola del mundo",
+    "tipo": "verde",
+    "descripcion": [
+      "Es una bola del mundo, un globo terraqueo.", "Es un juego de la app en la que me dan una adivinanza. Se elgira entre varios paises y habra que tocar el pais correcto",
+      "Al tocar el pais correcto me da la carta 17", "Descarta la carta 57"
+    ],
+    "pistas": ["Lee bien la frase, en ella encontraras el camino...", "El pais es Italia", "Toca en Roma"]
+  },
+  "17": {
+    "titulo": "Carta 17 — Pieza en forma de corazon",
+    "tipo": "gris",
+    "descripcion": [
+      "Es un corazon rojo. Se usará junto al cubo azul y el resto de piezas en el juego final.",
+      "En la carta física hay una letra escrita con un bolígrafo de tinta invisible. Con un llavero que conseguiremos más tarde (carta 40) podremos ver lo que hay escrito.",
+      "Esta pieza, junto al resto de piezas de niños, servirá para el puzzle final. Con el llavero de luz morada veremos las letras y descifraremos el último puzzle.",
+      "Descarta las cartas 65"],
+    "pistas": ["Lo usaremos para el juego final..."]
+  },
+  "9": {
+    "titulo": "Carta 9 — Cuerpo de robot",
+    "tipo": "azul",
+    "descripcion": ["Es el cuerpo de un robot", "Se junta con la carta 80 y cogemos la carta 89"],
+    "pistas": ["Juntalo con la cebeza", "Juntalo con la carta 80"]
+  },
+  "89": {
+    "titulo": "Carta 89 — Robocristi 3000",
+    "tipo": "verde",
+    "descripcion": ["Es un robot.","Es un juego de la app en la que debemos contestar 4 preguntas seguidas de cultura general", 
+    "Al hacerlo coorrectamente, nos ira que lleves coger en el juego de la carta 45","Descarta las cartas 80 y 9"],
+    "pistas": ["Contesta 4 bien. Tu puedes!"]
+  },
+  "67": {
+    "titulo": "Carta 67 — Cajon director",
+    "tipo": "gris",
+    "descripcion": ["Cajon del directo abierto", "En ellas te deja coger la carta 21 y la carta 40"],
+    "pistas": ["Coge las cartas que te dice esta carta."]
+  },
+  "45": {
+    "titulo": "Carta 45 — Juego de las llaves",
+    "tipo": "verde",
+    "descripcion": ["Es una caja llena de llaves", "Es un juego de la app en la que hay que elgir la llave correcta. La llave te la dira el robot",
+  "Al coger la llave correcta coges la carta 14", "Descarta la carta 67"],
+    "pistas": ["Preguntale al robot. Quiza el lo sepa.", "Coge la llave morada"]
+  },
+  "21": {
+    "titulo": "Carta 21 — Llavero sin pilas",
+    "tipo": "roja",
+    "descripcion": ["Es un llavero sin pilas", "Al juntarlo con la carta 19 nos da la carta 40"],
+    "pistas": ["Juntalo con la pila", "Juntalo con la carta 19"]
+  },
+  "40": {
+    "titulo": "Carta 40 — Llavero con pilas",
+    "tipo": "morada",
+    "descripcion": ["Es el llavero pero encendido. Es una linterna de luz morada. Al coger esta carta tambien podremos coger el mismo llavero pero en la vida real, que usaremos posteriormente en el juego final"
+    ,"Decarta las cartas 19 y 21"],
+    "pistas": ["Coge el llavero en la vida real"]
+  },
+  "14": {
+    "titulo": "Carta 14 — llave del conserje",
+    "tipo": "azul",
+    "descripcion": ["Es una llave morada", "Se usara para abrir la puerta del conserje. Al juntarlo con la carta 50 nos da la carta 64",
+  "Decarta la 45 y 89"],
+    "pistas": ["usala para abrir la puerta","juntala con la carta 50"]
+  },
+  "64": {
+    "titulo": "Carta 64 — Juego final",
+    "tipo": "verde",
+    "descripcion": ["Es un generador en la que hay unas formas. estas formas son las piezas que hemos estado recogiendo. al ponerlas con la luz morada del llavero, veremos unas letras. al ordenarlas nos dara la clave para encender el generador. al encenderlo el juego termina","Descarta la carta 50 y 14"],
+    "pistas": ["Las piezas te daran la contraseña", "Con el llavero, veras las letras", "La contraseña es: CRISTI"]
   }
 }
