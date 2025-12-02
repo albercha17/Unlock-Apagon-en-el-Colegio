@@ -108,7 +108,7 @@ export function startMinigame(opts = {}) {
     if (!segundaEscena) {
       if (!linternaEncontrada && isInside(linternaArea, x, y)) {
         linternaEncontrada = true;
-        mostrarMensaje("🔦 Coge la carta 5", cambiarEscena);
+        mostrarMensaje("🔦 Coge la carta 54. Ahora podemos ver el pasillo. Coge la carta 22", cambiarEscena);
       }
       return;
     }
@@ -118,7 +118,7 @@ export function startMinigame(opts = {}) {
       if (isInside(paperArea, x, y)) {
         paperEncontrado = true;
         // Reutilizamos el mismo flujo que con el papel
-        mostrarMensaje("📄 Coge la carta 26", marcarPapel);
+        mostrarMensaje("📄 Coge la carta 23", marcarPapel);
       }
     }
     // ESCENA 2: encendida, papel o cubo azul
@@ -126,7 +126,7 @@ export function startMinigame(opts = {}) {
       if (isInside(bucketArea, x, y)) {
         cuboEncontrado = true;
         // Reutilizamos el mismo flujo que con el papel
-        mostrarMensaje("🟦 Coge la carta 8", marcarPapel);
+        mostrarMensaje("🟦 Coge la carta 88", marcarPapel);
       }
     }
   });
